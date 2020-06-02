@@ -4,24 +4,6 @@
     What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 """
 
-# Must be even number
-# 20 10 
-# 19
-# 18 9 3
-# 17
-# 16 4
-# 15
-# 14 7
-# 13
-# 12 6
-# 11
-# 5
-
-# 10
-# 9 3
-# 8 
-# 7
-
 def isRemainder(n):
     for i in range(11,21):
         if n % i != 0:
